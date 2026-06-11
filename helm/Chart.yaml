@@ -1,0 +1,14 @@
+apiVersion: v2
+name: sd-customer-event-history
+description: "BIAN Service Domain: Customer Event History (Maintain pattern, Sales and Service)"
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - bian
+  - maintain
+annotations:
+  bian/business-area: "Sales and Service"
+  bian/business-domain: "Customer Management"
+  bian/asset-type: "Customer Event Log"
+  bian/control-record: "Customer Event Log Maintenance Agreement"
